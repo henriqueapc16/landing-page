@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilo para o cabeçalho */
+header {
+  background-color: rgb(10, 6, 150);
+  color: #fff;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+/* Estilo para o título */
+h1 {
+  margin: 10px;
+} 
+
+
+/* Estilo para o menu de navegação */
+nav ul {
+  list-style-type: none;
+  margin: 20px;
+  padding: 10px;
+  display: flex;
+}
+.container{
+  position: relative;
+  width: 1100px;
+  display: flex ; 
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  margin: 8%;
+  flex-wrap: wrap;
+
+
+}
+.container .card{
+  position: relative;
+  width: 308px;
+  height:400px;
+  background:#f0f0f0;
+  justify-content: center;
+  display:flex;
+  flex-direction: column;
+  margin: 30px 10px;
+  padding: 20px 15px;
+  box-shadow:0.5px 10px #e6e6e6;
+  transition:0.3s ease-in-out;
+  margin-top: 5%;
+}
+.container.card.imgproduto{
+position: relative;
+width: 260px;
+height: 260px;
+top: -60px;
+left:20px;
+box-shadow:0 5px 20px rgba(0, 0, 0,1, 2);
+}
+.container.card.imgproduto img
+{
+max-width: 100%;
+border-radius: 10px;
+}
+.imgproduto:hover img {
+transform:scale(1.1)
+}
+.title {
+  background: #884beb;
+  padding: 09px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.title span {
+  color: #0bdada;
+}
+
+
+.texto {
+  margin: 30px;
+}
+ 
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #ccc;
+}
+
+
+/* Estilo para as seções */
+section {
+  margin: 20px;
+}
+
+/* Estilo para o rodapé */
+footer {
+  background-color: #ccc;
+  padding: 20px;
+  text-align: center;
+}
