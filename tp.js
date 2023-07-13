@@ -1,5 +1,1 @@
-function remote( 
-){
-    
-}
-
+function remote() {}
